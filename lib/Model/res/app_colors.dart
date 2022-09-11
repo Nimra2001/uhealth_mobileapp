@@ -15,4 +15,8 @@ class AppColors {
   static const Color redColor = Colors.red;
   static const Color containerAppointmentColor = Color(0xffc7c7cc);
   static const Color containerAppointmentTextColor = Colors.black26;
+  static const Color cancelButtonColor = Color(0xffd6d8db);
+  static const Color starColor = Colors.amber;
+
+
 }

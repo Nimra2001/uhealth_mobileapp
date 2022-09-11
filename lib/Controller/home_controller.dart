@@ -10,10 +10,14 @@ import 'package:uhealth_mobileapp/Model/res/app_images.dart';
 
 import '../Model/res/app_colors.dart';
 
+
+
 class HomeController extends GetxController {
   TextEditingController searchController = TextEditingController();
 
+
   RxInt currentIndex = 0.obs;
+
   static const iconTypes = [
     Iconify(Noto.lungs),
     Iconify(

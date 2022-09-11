@@ -31,19 +31,21 @@ static final AppointmentController appointmentController = Get.put(AppointmentCo
             ),
           ),
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            const SizedBox(height: 16.0),
-            const JobButtons(),
-            const SizedBox(height: 24.0),
-            Obx(
-                  () => appointmentController.cupertinoTabBarIIIValue.value == 0
-                  ? const UpComingAppointments()
-                  : appointmentController.cupertinoTabBarIIIValue.value == 1 ? const CompletedAppointments() : const CancelAppointments(),
-            ),
-          ],
+        body: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              const SizedBox(height: 16.0),
+              const JobButtons(),
+              const SizedBox(height: 24.0),
+              Obx(
+                    () => appointmentController.cupertinoTabBarIIIValue.value == 0
+                    ? const UpComingAppointments()
+                    : appointmentController.cupertinoTabBarIIIValue.value == 1 ? const CompletedAppointments() : const CancelAppointments(),
+              ),
+            ],
+          ),
         ),
       ),
     );
