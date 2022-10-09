@@ -93,7 +93,7 @@ class CompletedCards extends StatelessWidget {
                 children: [
                   Container(
                     // padding: EdgeInsets.all(2.w),
-                    width: width / 6,
+                    width: width / 7,
                     height: height / 19,
                     decoration: const BoxDecoration(
                       color: AppColors.cancelButtonColor,
@@ -122,7 +122,7 @@ class CompletedCards extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    width: 10.w,
+                    width: 5.w,
                   ),
                   Expanded(
                     child: Container(

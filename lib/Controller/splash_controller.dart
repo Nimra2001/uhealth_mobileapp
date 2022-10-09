@@ -8,7 +8,7 @@ class SplashController extends GetxController {
   Future<void> onInit() async {
     super.onInit();
     await GetStorage.init();
-    Future.delayed(const Duration(milliseconds: 500), () async {
+    Future.delayed(const Duration(seconds: 10), () async {
       Get.offAll(() =>  BottomBar());
       }
     );

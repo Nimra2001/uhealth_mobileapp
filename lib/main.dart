@@ -6,7 +6,6 @@ import 'package:keyboard_dismisser/keyboard_dismisser.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:uhealth_mobileapp/View/bottom_bar_screens/chat_screen.dart';
 import 'package:uhealth_mobileapp/View/bottom_bar_screens/home_screen.dart';
-
 import 'View/bottom_bar_screens/appointment_screen.dart';
 import 'View/splash_screen.dart';
 
@@ -38,9 +37,10 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.blue,
             fontFamily: 'SourceSansPro',
           ),
-          home: SplashScreen(),
+          // home: SplashScreen(),
           initialRoute: '/',
           routes: {
+            '/' : (context) => SplashScreen(),
             '/first': (context) => const HomeScreen(),
             '/second': (context) => const AppointmentScreen(),
             '/third': (context) => const ChatScreen(),

@@ -14,9 +14,10 @@ class LearnMoreCard extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Positioned(
-          top: 35,
-          right: 5,
-          left: 5,
+          top: 4.h,
+          right: 1.w,
+          left: 1.w,
+          bottom: 0,
           child: Container(
             height: height,
             width: width,
@@ -40,10 +41,10 @@ class LearnMoreCard extends StatelessWidget {
             ),
             child: Stack(
               children: [
-                const Positioned(
-                  top: 15,
-                  left: 20,
-                  child: Text(
+                 Positioned(
+                  top: 2.h,
+                  left: 5.w,
+                  child: const Text(
                     "Here when you need",
                     style: TextStyle(
                       fontSize: 18,
@@ -53,10 +54,10 @@ class LearnMoreCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                const Positioned(
-                  top: 40,
-                  left: 20,
-                  child: Text(
+                 Positioned(
+                  top: 5.h,
+                  left: 5.w,
+                  child: const Text(
                     "us most",
                     style: TextStyle(
                       fontSize: 18,
@@ -67,8 +68,8 @@ class LearnMoreCard extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                    top: 70,
-                    left: 20,
+                    top: 10.h,
+                    left: 5.w,
                     child: Container(
                       width: 25.w,
                       height: 5.h,
@@ -92,7 +93,8 @@ class LearnMoreCard extends StatelessWidget {
         ),
         Positioned(
           top: 0,
-          right: 6.w,
+          right: 2.w,
+          bottom: 0,
           child: SizedBox(
             width: 65.w,
             height: 30.h,

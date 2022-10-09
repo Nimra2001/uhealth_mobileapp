@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:uhealth_mobileapp/Controller/home_controller.dart';
 import 'package:uhealth_mobileapp/Model/res/app_colors.dart';
+import 'package:uhealth_mobileapp/View/screens/more_doctors.dart';
 import '../../Model/widgets/home_screen_widgets/learn_more_card.dart';
 import '../../Model/widgets/home_screen_widgets/name_image_row.dart';
 import '../../Model/widgets/home_screen_widgets/popular_doctors.dart';
@@ -52,15 +53,15 @@ class HomeScreen extends GetView<HomeController> {
             Padding(
               padding: EdgeInsets.only(left: 2.w, right: 2.w),
               child: SizedBox(
-                height: height / 4,
+                height: height / 4.5,
                 child: LearnMoreCard(
-                  height: height / 5,
+                  height: height / 4,
                   width: width,
                 ),
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top: 1.w, left: 4.w, right: 4.w),
+              padding: EdgeInsets.only(top: 2.h, left: 4.w, right: 4.w),
               child: Material(
                 elevation: 2,
                 shadowColor: AppColors.inActiveColorPrimary,
@@ -93,7 +94,7 @@ class HomeScreen extends GetView<HomeController> {
             ),
             Padding(
               padding: EdgeInsets.only(
-                top: 2.w,
+                top: 4.w,
                 left: 4.w,
               ),
               child: const Text(
@@ -107,15 +108,15 @@ class HomeScreen extends GetView<HomeController> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top: 1.w, left: 4.w, right: 4.w),
+              padding: EdgeInsets.only(top: 1.h, left: 4.w, right: 4.w),
               child: const SpecialistRow(),
             ),
             Padding(
-              padding: EdgeInsets.only(top: 1.w, left: 4.w, right: 4.w),
+              padding: EdgeInsets.only(top: 2.h, left: 4.w, right: 4.w),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
-                  Text(
+                children:  [
+                  const Text(
                     "Popular Doctors",
                     style: TextStyle(
                       fontSize: 18,
@@ -124,13 +125,18 @@ class HomeScreen extends GetView<HomeController> {
                       fontFamily: 'Manrope',
                     ),
                   ),
-                  Text(
-                    "See More",
-                    style: TextStyle(
-                      fontSize: 15,
-                      color: AppColors.backGroundColor,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Manrope',
+                  InkWell(
+                    onTap: (){
+                      Get.to(SeeMoreDoctors());
+                    },
+                    child: const Text(
+                      "See More",
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: AppColors.backGroundColor,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Manrope',
+                      ),
                     ),
                   ),
                 ],
