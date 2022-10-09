@@ -4,7 +4,9 @@ A new Flutter project with MVC and GetX State Management.
 
 ![alt text](https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2022/04/GetX-for-flutter-everything-you-need-to-know.jpg)
 
-Model–View–ViewModel (MVVM) is a very established architectural pattern when it's come to software development. Here I have tried to put MVVM in simple example with rest Api's integration which will help you to implement in any project.
+GetX is not only a state management library but it is an ultra light, fast, reliable microframework for flutter which provides route management and dependency injection as well.
+
+Flutter is moving very fast and gaining a favorite place amongst developers. As a developer, we need to cope up with frequent flutter updates, its plugins and other dependencies. Sometimes, it becomes a nightmare to manage such dependencies. Getx solved this problem, it is all in one package which makes our job quite comfortable. Also, by using GetX, we can avoid the use of StatefulWidget; it reduces the RAM consumption as well.
 
 ## Output
 <p align="center">
@@ -21,8 +23,10 @@ Model–View–ViewModel (MVVM) is a very established architectural pattern when
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_31A8482B-4590-4DF9-AD0D-9E76088C6A65.png" width="30%">
 </p>
 
-You can get Api's using this link
-[a link](https://reqres.in/)
+## Core Principles of GetX
+* PERFORMANCE
+* PRODUCTIVITY
+* ORGANIZATION
 
 ## Requirements
 * Any Operating System (ie. MacOS X, Windows)
