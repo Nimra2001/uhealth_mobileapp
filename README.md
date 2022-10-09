@@ -15,7 +15,9 @@ Flutter is moving very fast and gaining a favorite place amongst developers. As 
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_39D23163-D962-4A98-B631-51298CD7905A.png" width="30%">
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_2CC095F9-E455-4083-A49C-224C38B03B12.png" width="30%">
-  &nbsp; &nbsp; &nbsp; &nbsp;
+</p>
+
+<p align="center">
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_0A132C36-6757-4F3B-B07C-A5E31E75D4A9.png" width="30%">
     &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_305BB1D6-EBF5-4C14-B9F6-5F361045A7EE.png" width="30%">
