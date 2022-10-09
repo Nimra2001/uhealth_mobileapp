@@ -10,7 +10,7 @@ Model–View–ViewModel (MVVM) is a very established architectural pattern when
 <p align="center">
   <img alt="Light" src="https://www.linkpicture.com/q/simulator_screenshot_F13DA318-C338-483C-B81D-868BD1076629.png" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_38719DCA-95CC-466F-BA54-24996B45E858.png" width="30%">
+  <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_39D23163-D962-4A98-B631-51298CD7905A.png" width="30%">
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://www.linkpicture.com/q/simulator_screenshot_05295C83-3E78-4E9F-BA0C-D3B20F6B8C5E.png" width="30%">
 </p>
